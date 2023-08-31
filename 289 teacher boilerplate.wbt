@@ -1,0 +1,35 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.1486836321958388 0.042818724458693024 0.9879573545213289 2.587207227582315
+  position 4.766956929862573 -2.743644160196383 1.740381249326636
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 6 3
+  floorAppearance OsbWood {
+  }
+}
+WoodenBox {
+  translation 1.5 -0.4 0.3
+}
+UR5e {
+  hidden position_0_0 -9.541538121820591e-05
+  hidden rotation_1 0 0 -0.9999999999999999 9.541538270729178e-05
+  hidden position_1_0 5.7177494108022914e-05
+  hidden rotation_2 0 1 0 1.5708531774941081
+  hidden position_2_0 1.5863537578987012e-05
+  hidden rotation_3 0 1 0 1.5863544135755236e-05
+  hidden position_3_0 -6.530287100044696e-06
+  hidden rotation_4 0 1 0 1.5707894697129001
+  hidden position_4_0 4.1101369314789267e-07
+  hidden rotation_5 0 0 1 4.107966647175028e-07
+  hidden position_5_0 -4.114185692944799e-07
+  hidden rotation_6 0 -1 0 4.1187628987685676e-07
+  translation 1.5 -0.4 0.6
+  controller "boilerpate_code"
+}
